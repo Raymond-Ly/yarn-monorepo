@@ -1,0 +1,6 @@
+{
+  "name": "@yarn-monorepo/express-app-2-types",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT"
+}

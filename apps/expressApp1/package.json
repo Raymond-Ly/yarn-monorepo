@@ -1,0 +1,14 @@
+{
+  "name": "@yarn-monorepo/express-app-1",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && nodemon ./dist/index.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@yarn-monorepo/common-types": "workspace:^",
+    "@yarn-monorepo/express-app-1-types": "workspace:^"
+  }
+}

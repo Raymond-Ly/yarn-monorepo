@@ -1,5 +1,5 @@
 {
-  "name": "@yarn-monorepo/express-app",
+  "name": "@yarn-monorepo/express-app-2",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
@@ -8,6 +8,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@yarn-monorepo/common-types": "^1.0.0"
+    "@yarn-monorepo/common-types": "workspace:^",
+    "@yarn-monorepo/express-app-2-types": "workspace:^"
   }
 }
