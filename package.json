@@ -10,8 +10,9 @@
     "install:app1": "yarn workspaces focus @yarn-monorepo/express-app-1",
     "build:app1": "yarn workspace @yarn-monorepo/express-app-1 build",
     "copy-deps:app1": "cp -R node_modules ./apps/expressApp1/dist",
-    "deploy:app1": "pnpm install:app1 && pnpm build:app1 && copy-deps:app1",
-    "start:app1": "yarn workspace @yarn-monorepo/express-app-1 start"
+    "deploy:app1": "yarn install:app1 && yarn build:app1 && yarn copy-deps:app1",
+    "start:app1": "yarn workspace @yarn-monorepo/express-app-1 start",
+    "clean:app1": "rm -rf node_modules && cd ./apps/expressApp1 && rm -rf dist"
   },
   "dependencies": {
     "express": "^4.18.2"
