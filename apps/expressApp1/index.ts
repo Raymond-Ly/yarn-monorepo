@@ -1,6 +1,6 @@
 import express from 'express';
-import { Example } from '@pnpm-monorepo/common-types';
-import { ExpressApp1 } from '@pnpm-monorepo/express-app-1-types';
+import { Example } from '@yarn-monorepo/common-types';
+import { ExpressApp1 } from '@yarn-monorepo/express-app-1-types';
 
 const app = express();
 const port = 3001;
